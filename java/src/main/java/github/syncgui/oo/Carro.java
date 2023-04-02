@@ -11,7 +11,7 @@ public class Carro {
     Portas porta = new Portas();
 
     void acelerar() {
-        if (motor.fatorInjecao < 2.6 && porta.equals(false)) {
+        if (motor.fatorInjecao < 2.6 && !porta.getPortas()) {
         motor.fatorInjecao += 0.4;
         } else {
             System.out.println("Não posso acelerar, porta aberta!");

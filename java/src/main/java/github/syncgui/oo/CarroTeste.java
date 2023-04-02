@@ -11,7 +11,7 @@ public class CarroTeste {
 
         System.out.println(c1.motor.giros());
 
-        c1.porta.portaAberta();
+        c1.porta.portaFechada();
 
         c1.acelerar();
         c1.acelerar();

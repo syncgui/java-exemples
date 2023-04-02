@@ -3,14 +3,17 @@ package github.syncgui.oo;
 import java.util.Objects;
 
 public class Portas {
+    private boolean portas;
 
-    boolean portas;
-
-    boolean portaAberta() {
-        return portas = true;
+    void portaAberta() {
+        portas = true;
     }
-    boolean portaFecada() {
-        return portas = false;
+    void portaFechada() {
+        portas = false;
+    }
+
+    public boolean getPortas() {
+        return portas;
     }
 
     @Override
