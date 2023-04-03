@@ -1,4 +1,4 @@
-package github.syncgui.oo;
+package github.syncgui.oo.composicao;
 
 public class CarroTeste {
     public static void main(String[] args) {
