@@ -1,4 +1,8 @@
-package github.syncgui.oo.heranca;
+package github.syncgui.oo.heranca.teste;
+
+import github.syncgui.oo.heranca.Direcao;
+import github.syncgui.oo.heranca.Heroi;
+import github.syncgui.oo.heranca.Monstro;
 
 public class Jogo {
 
