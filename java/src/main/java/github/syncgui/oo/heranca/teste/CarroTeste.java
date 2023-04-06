@@ -17,6 +17,9 @@ public class CarroTeste {
         civic.acelerar();
         System.out.println(civic);
 
+        ferrari.ligarTurbo();
+        ferrari.ligarAr();
+        ferrari.desligarAr();
         ferrari.acelerar();
         ferrari.acelerar();
         ferrari.acelerar();
@@ -24,6 +27,8 @@ public class CarroTeste {
         ferrari.acelerar();
         ferrari.acelerar();
         System.out.println(ferrari);
+
+        System.out.println(ferrari.velocidadeDoAr());
 
         civic.frear();
         System.out.println(civic);
