@@ -1,4 +1,4 @@
-package github.syncgui.oo.streams;
+package github.syncgui.streams;
 
 import java.util.Arrays;
 import java.util.Iterator;
