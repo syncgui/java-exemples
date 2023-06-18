@@ -1,5 +1,8 @@
 package github.syncgui.jdbc;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Pessoa {
 
     private int codigo;
